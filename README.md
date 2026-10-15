@@ -1,6 +1,6 @@
 # Notes
 
-This repository will contain all notes for CIT-I
+This repository will contain notes for CIT-I
 
 If you are looking for more information on HTML, CSS, or JavaScript, here are some helpful sites:
 
