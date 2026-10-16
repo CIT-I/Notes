@@ -29,20 +29,12 @@ The distinction is illustrated in the following example:
 ```
 
 ```css
-body {
-  background color: blue;
-}
-
 p {
-  background-color: orange;
   margin: 12px;
-  padding: 12px;
+  padding: 8px;
 }
 ```
-
-<body style="background color: blue;">
-  <p style="margin: 12px; padding: 12px;">text</p>
-</body>
+Here there is a 12px spacing (margin) between the body tag and the paragraph tag, and a 8px spacing (padding) between the content of the paragraph tag and the area the paragraph tag occupies. To more clearly visualize this difference, you can add a background color to these elements.
 
 ### Flex
 
