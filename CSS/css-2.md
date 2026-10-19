@@ -36,6 +36,26 @@ p {
 ```
 Here there is a 12px spacing (margin) between the body tag and the paragraph tag, and a 8px spacing (padding) between the content of the paragraph tag and the area the paragraph tag occupies. To more clearly visualize this difference, you can add a background color to these elements.
 
-### Flex
+### Flexbox
 
-text
+Flexbox is a layout model for arranging items horizontally or vertically within a container, in a responsive way.
+
+When applying Flex properties, we typically want to establish the:
+
+- Layout
+
+```css
+
+```
+
+- Direction
+
+```css
+
+```
+
+- Distribution
+
+```css
+
+```
