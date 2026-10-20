@@ -14,7 +14,7 @@ The child combinator (`>`) is placed between two CSS selectors. It matches only 
 
 ### Descendant Combinator
 
-The descendant combinator — typically represented by a single space ("` `") character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector.
+The descendant combinator — typically represented by a single space (` `) character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector.
 
 ```css
 
