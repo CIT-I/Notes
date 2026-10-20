@@ -59,13 +59,13 @@ display: flex;
 - Direction: how flex items are placed in the flex container defining the main axis and the direction
 
 ```css
-/* items rendered left to right */
+/* items ordered left to right */
 flex-direction: row;
-/* items rendered top to bottom */
+/* items ordered top to bottom */
 flex-direction: column;
-/* items rendered right to left */
+/* items ordered right to left */
 flex-direction: row-reverse;
-/* items rendered bottom to top */
+/* items ordered bottom to top */
 flex-direction: column-reverse;
 ```
 
