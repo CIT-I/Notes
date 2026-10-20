@@ -42,20 +42,32 @@ Flexbox is a layout model for arranging items horizontally or vertically within 
 
 When applying Flex properties, we typically want to establish the:
 
-- Layout
+- Layout: how an elements children are displayed
 
 ```css
-
+display: flex;
 ```
 
-- Direction
+- Direction: how flex items are placed in the flex container defining the main axis and the direction
 
 ```css
-
+/* items rendered left to right */
+flex-direction: row;
+/* items rendered top to bottom */
+flex-direction: column;
+/* items rendered right to left */
+flex-direction: row-reverse;
+/* items rendered bottom to top */
+flex-direction: column-reverse;
 ```
 
 - Distribution
 
-```css
+`justify-content`: defines how space is distributed between and around content items along the main axis (flex-direction)
 
+`align-items`: controls the alignment of items on the cross axis (opposite of flex-direction)
+
+```css
+justify-content: center;
+align-items: center;
 ```
