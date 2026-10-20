@@ -4,13 +4,21 @@
 
 With the `div` HTML tag, we will start to nest tags. Nesting HTML elements introduces new ways to utilize selectors.
 
-### Child Selector
+### Child Combinator
 
-text
+The child combinator (`>`) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first.
 
-### Descendant Selector
+```css
 
-text
+```
+
+### Descendant Combinator
+
+The descendant combinator — typically represented by a single space ("` `") character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector.
+
+```css
+
+```
 
 ## Properties
 
